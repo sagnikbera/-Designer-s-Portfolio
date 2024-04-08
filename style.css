@@ -310,7 +310,7 @@ html, body{
     background: linear-gradient(to right, rgba(255,255,255,0), white);
 }
 
-.picture:hover ..pic-slide{
+.picture:hover .pic-slide{
     animation: 50s sld infinite linear;
 }
 
@@ -354,7 +354,7 @@ html, body{
     background: linear-gradient(to right, rgba(255,255,255,0), white);
 }
 
-.pikture:hover ..pik-slide{
+.pikture:hover .pik-slide{
     animation: 50s sld infinite reverse;
 }
 
