@@ -91,6 +91,7 @@ html, body{
 #hero-img {
     width: 100%;
     transition: transform 0.8s ease;
+}    
 
 #hero-img:hover  {
     transform: scale(1.2);
