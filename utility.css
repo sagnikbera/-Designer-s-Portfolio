@@ -1,0 +1,57 @@
+.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .static-txt{
+    font-size: 110px;
+    color: black;
+}
+
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    margin-top: 0px;
+    height: 150px;
+    line-height: 150px;
+    overflow: hidden;
+}
+
+.dynamic-txts li{
+    font-size: 110px;
+    list-style: none;
+    color: #FC6D6D;
+    position: relative;
+    top: 0;
+    animation: slide 10s steps(2) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span{
+    position: relative;
+}
+
+.dynamic-txts li span::after{
+    background: white;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid black;
+    animation: typing 5s steps(11) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
