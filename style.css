@@ -109,7 +109,7 @@ html, body{
     width: 60%;
     font-size: 60px;
     line-height: 70px;letter-spacing: -2px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #about-part2{
@@ -185,4 +185,8 @@ html, body{
 
 #img1{
     transform: translate(-50%,-50%) rotate(28deg);
+}
+
+#img0{
+    transform: translate(-50%,-50%) rotate(35deg);
 }
