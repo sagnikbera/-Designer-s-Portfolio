@@ -68,9 +68,21 @@
   }
 
   .red{
-    color: rgb(234, 69, 9);
+    color: #EA4335;
   }
   
   .yellow{
-    color: rgb(255, 212, 23);
+    color: #FBBC05;
+  }
+
+  .green{
+    color: #34A853;
+  }
+
+  .blue{
+   color: #4285F4;
+  }
+
+  .img-shadow{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
   }
