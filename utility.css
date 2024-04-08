@@ -1,44 +1,45 @@
 .shadow {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.wrapper{
+  }
+  
+  .wrapper {
     display: inline-flex;
-}
-
-.wrapper .static-txt{
+  }
+  
+  .wrapper .static-txt {
     font-size: 110px;
     color: black;
-}
-
-.wrapper .dynamic-txts{
+  }
+  
+  .wrapper .dynamic-txts {
     margin-left: 15px;
     margin-top: 0px;
-    height: 150px;
-    line-height: 150px;
+    height: 130px;
+    line-height: 130px;
     overflow: hidden;
-}
-
-.dynamic-txts li{
+  }
+  
+  .dynamic-txts li {
     font-size: 110px;
     list-style: none;
-    color: #FC6D6D;
+    color: #f31a1a;
     position: relative;
+  
     top: 0;
     animation: slide 10s steps(2) infinite;
-}
-
-@keyframes slide{
-    100%{
-        top: -360px;
+  }
+  
+  @keyframes slide {
+    100% {
+      top: -260px;
     }
-}
-
-.dynamic-txts li span{
+  }
+  
+  .dynamic-txts li span {
     position: relative;
-}
-
-.dynamic-txts li span::after{
+  }
+  
+  .dynamic-txts li span::after {
     background: white;
     content: "";
     position: absolute;
@@ -47,11 +48,21 @@
     width: 100%;
     border-left: 2px solid black;
     animation: typing 5s steps(11) infinite;
-}
-
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
+  }
+  
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 53px;
     }
-}
+  }
+
+  
+  .line{
+    height: 2px;
+    width: 95%;
+    background-color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+  }
