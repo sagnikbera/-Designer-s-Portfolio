@@ -146,6 +146,12 @@ html, body{
     transform: scale(1.2);
 }
 
+#whyUs {
+    position: relative; 
+    margin-top: 250px;
+    margin-bottom: 250px !important;
+}
+
 
 #whyUs h1{
     display: flex;
@@ -156,17 +162,19 @@ html, body{
     text-transform: uppercase;
     width: 100%;
     text-align: center;
+    letter-spacing: 10px;
 }
 
 .pic{
     height: 450px;
     width: 350px;
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     object-fit: cover;
     border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -189,4 +197,12 @@ html, body{
 
 #img0{
     transform: translate(-50%,-50%) rotate(35deg);
+}
+
+#btm-left{
+    position: absolute;
+    /* right:90%; */
+    left: 6%;
+    bottom:-110%;
+    font-size: 20px;
 }
