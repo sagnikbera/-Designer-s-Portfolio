@@ -143,4 +143,46 @@ html, body{
     border-radius: 50px;
     padding: 7px;
     margin-right: 10px;
+    transform: scale(1.2);
+}
+
+
+#whyUs h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 130px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.pic{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+#img4{
+    transform: translate(-50%,-50%) rotate(7deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(14deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(21deg);
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(28deg);
 }
