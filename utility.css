@@ -86,3 +86,62 @@
   .img-shadow{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
   }
+
+
+  @media screen and (max-width: 450px){
+    .wrapper {
+        display: inline-flex;
+      }
+      
+      .wrapper .static-txt {
+        font-size: 50px;
+        color: black;
+      }
+      
+      .wrapper .dynamic-txts {
+        margin-left: 15px;
+        margin-top: 0px;
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+      }
+      
+      .dynamic-txts li {
+        font-size: 50px;
+        list-style: none;
+        color: #f31a1a;
+        position: relative;
+      
+        top: 0;
+        animation: slide 10s steps(2) infinite;
+      }
+      
+      @keyframes slide {
+        100% {
+          top: -260px;
+        }
+      }
+      
+      .dynamic-txts li span {
+        position: relative;
+      }
+      
+      .dynamic-txts li span::after {
+        background: white;
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-left: 2px solid black;
+        animation: typing 5s steps(11) infinite;
+      }
+      
+      @keyframes typing {
+        100% {
+          left: 100%;
+          margin: 0 -35px 0 53px;
+        }
+      }
+    
+  }

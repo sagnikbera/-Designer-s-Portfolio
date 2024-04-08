@@ -28,6 +28,7 @@ html, body{
     justify-content: flex-end;
     padding: 30px 40px;
     gap: 8px;
+    z-index: 20;
 }
 
 #nav h3{
@@ -41,6 +42,16 @@ html, body{
 #wp:hover{
     background-color: #25D366;
     font-size: 22px;
+}
+
+#wrk a{
+    text-decoration: none;
+    color: white;
+}
+
+#wp a{
+    text-decoration: none;
+    color: white;
 }
 
 #wrk:hover{
@@ -269,6 +280,25 @@ html, body{
     color: rgb(60, 58, 58);
 }
 
+.lol{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.work2-part .lol:nth-child(1){
+    border-right: 2px solid black
+    ;
+}
+
+.lol h4{
+    font-size: 25px;
+}
+
+.lol p{
+    color: rgb(60, 58, 58);
+}
+
 /* .portfolio {
     background-color: rgb(228, 239, 243);
 } */
@@ -386,3 +416,16 @@ html, body{
     margin-top: 40px;
     font-weight: 500;
 }
+
+footer{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
