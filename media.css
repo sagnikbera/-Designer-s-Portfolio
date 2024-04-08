@@ -236,8 +236,8 @@
     }
     
     #work1{
-        width: 50%;
-        height: 5%;
+        width: 60%;
+        height: 10%;
         display: flex;
         align-items: center;
         /* justify-content: space-between; */
@@ -252,9 +252,9 @@
     }
     
     #work2{
-        width: 70%;
-        height: 100%;
-        padding: 0px 10px;
+        width: 80%;
+        height: 80%;
+        padding: 10px 5px;
     }
     
     .work2-part{
