@@ -116,6 +116,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 60px;
     }
     
     #about h2{
@@ -223,24 +225,26 @@
     }
     
     #work{
-        height: 50%;
+        height: 70%;
         width: 100%;
         /* border-top: 2px solid black; */
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         padding: 10px 15px;
     }
     
     #work1{
-        width: 30%;
-        height: 100%;
+        width: 50%;
+        height: 5%;
         display: flex;
-        justify-content: space-between;
-        border-right: 2px solid black;
+        align-items: center;
+        /* justify-content: space-between; */
+        /* border-right: 2px solid black; */
         padding-right: 10px;
         padding-top: 20px;
-        font-size: 10px;
+        font-size: 15px;
     }
     
     #work1 i{
